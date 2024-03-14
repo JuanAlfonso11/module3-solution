@@ -27,3 +27,18 @@ img {
     border-radius: 5px; /* Agregado: Añade bordes redondeados a las imágenes */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agregado: Añade sombra a las imágenes */
 }
+/* Estilo para el encabezado h1 */
+h1 {
+    text-align: center;
+    margin-top: 70px; /* Ajusta este valor según sea necesario para dejar espacio suficiente debajo de la barra de navegación */
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    margin-bottom: 20px; /* Agrega un margen inferior para dejar espacio entre la barra de navegación y el contenido siguiente */
+}
+
+/* Estilo para el contenedor de la sección */
+.container {
+    margin-top: 20px; /* Agrega un margen superior al contenedor de la sección para dejar espacio entre el encabezado h1 y el contenido siguiente */
+}
