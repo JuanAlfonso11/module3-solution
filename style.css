@@ -1,44 +1,55 @@
-/* Estilos para la sección */
-.section {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 5px; /* Agregado: Añade bordes redondeados a la sección */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agregado: Añade sombra a la sección */
+/* Estilos personalizados */
+
+/* Ajustes generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
 }
 
-/* Estilos para los encabezados de nivel 2 */
-h2 {
-    text-align: center;
-    margin-bottom: 10px; /* Agregado: Espacio extra bajo los encabezados */
-}
-
-/* Estilos para los párrafos */
-p {
-    text-align: justify;
-    line-height: 1.6; /* Agregado: Aumenta el espaciado entre líneas para una mejor legibilidad */
-}
-
-/* Estilos para las imágenes */
-img {
-    max-width: 100%; /* Modificado: Hace que las imágenes sean responsivas */
-    display: block;
-    margin: 0 auto;
-    border-radius: 5px; /* Agregado: Añade bordes redondeados a las imágenes */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agregado: Añade sombra a las imágenes */
-}
-/* Estilo para el encabezado h1 */
-h1 {
-    text-align: center;
-    margin-top: 70px; /* Ajusta este valor según sea necesario para dejar espacio suficiente debajo de la barra de navegación */
-}
-
-/* Estilo para la barra de navegación */
-.navbar {
-    margin-bottom: 20px; /* Agrega un margen inferior para dejar espacio entre la barra de navegación y el contenido siguiente */
-}
-
-/* Estilo para el contenedor de la sección */
 .container {
-    margin-top: 20px; /* Agrega un margen superior al contenedor de la sección para dejar espacio entre el encabezado h1 y el contenido siguiente */
+    margin-top: 50px; /* Ajuste para dejar espacio debajo de la barra de navegación */
+}
+
+/* Estilo para la sección realmente alta */
+.tall-section {
+    background-color: #fff; /* Color de fondo para la sección */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 50px; /* Espaciado inferior para dejar espacio debajo de la sección */
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    border: none; /* Borde transparente */
+}
+
+.navbar-brand {
+    color: #fff; /* Color del texto */
+}
+
+.navbar-toggle {
+    color: #fff; /* Color del icono del botón de menú */
+    border: none; /* Borde transparente */
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+    background-color: transparent; /* Cambio de color de fondo al pasar el mouse o enfocar */
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff; /* Color de las barras del icono del botón de menú */
+}
+
+.navbar-collapse {
+    border: none; /* Borde transparente */
+}
+
+.navbar-nav > li > a {
+    color: #fff; /* Color del texto de los enlaces */
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background-color: transparent; /* Cambio de color de fondo al pasar el mouse o enfocar */
 }
