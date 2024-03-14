@@ -1,7 +1,20 @@
 .section {
-    background-color: #eee;
+    background-color: #f0f0f0;
     padding: 20px;
-    margin-bottom: 20px;
-    height: 1000px; /* Make the section really tall */
+    margin: 20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
   }
   
